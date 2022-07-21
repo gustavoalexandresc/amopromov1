@@ -1,7 +1,14 @@
+import { HeaderInfos } from "./components/HeaderInfos"
+import { HeaderNavbar } from "./components/HeaderNavbar"
+
 function App() {
   return (
     <div>
-      <h1>SegurosPromo</h1>
+      <header>
+        <HeaderInfos />
+        <HeaderNavbar />
+      </header>
+
     </div>
   )
 }
