@@ -1,5 +1,6 @@
 import { HeaderInfos } from "./components/HeaderInfos"
 import { HeaderNavbar } from "./components/HeaderNavbar"
+import { Hero } from "./components/Hero"
 
 function App() {
   return (
@@ -8,7 +9,10 @@ function App() {
         <HeaderInfos />
         <HeaderNavbar />
       </header>
+      <main>
+        <Hero />
 
+      </main>
     </div>
   )
 }
