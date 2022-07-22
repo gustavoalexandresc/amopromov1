@@ -1,36 +1,36 @@
 import { ColorDivider } from "../shared/ColorDivider";
 
-import SegurosPromoAltImage from '../../../assets/segurospromo_alt.png'
+import SegurosPromoAltImage from '../../assets/segurospromo_alt.png'
 
-import CelphoneIcon from '../../../assets/icons/celphone_alt.png'
-import WhatsappIcon from '../../../assets/icons/whatsapp_alt.png'
-import EnvelopeIcon from '../../../assets/icons/envelope.png'
+import CelphoneIcon from '../../assets/icons/celphone_alt.png'
+import WhatsappIcon from '../../assets/icons/whatsapp_alt.png'
+import EnvelopeIcon from '../../assets/icons/envelope.png'
 
-import FacebookImage from '../../../assets/logos/facebook.png'
-import TwitterImage from '../../../assets/logos/twitter.png'
-import InstagramImage from '../../../assets/logos/instagram.png'
+import FacebookImage from '../../assets/logos/facebook.png'
+import TwitterImage from '../../assets/logos/twitter.png'
+import InstagramImage from '../../assets/logos/instagram.png'
 
-import MasterCardImage from '../../../assets/logos/mastercard.png'
-import VisaCardImage from '../../../assets/logos/visa.png'
-import AmericanExpressCardImage from '../../../assets/logos/americanexpress.png'
-import EloCardImage from '../../../assets/logos/elo.png'
-import DinersClubCardImage from '../../../assets/logos/dinersclub.png'
-import HiperCardImage from '../../../assets/logos/hipercard.png'
+import MasterCardImage from '../../assets/logos/mastercard.png'
+import VisaCardImage from '../../assets/logos/visa.png'
+import AmericanExpressCardImage from '../../assets/logos/americanexpress.png'
+import EloCardImage from '../../assets/logos/elo.png'
+import DinersClubCardImage from '../../assets/logos/dinersclub.png'
+import HiperCardImage from '../../assets/logos/hipercard.png'
 
-import BoletoImage from '../../../assets/logos/boleto.png'
-import TagDescontoImage from '../../../assets/logos/tag_5desconto.png'
+import BoletoImage from '../../assets/logos/boleto.png'
+import TagDescontoImage from '../../assets/logos/tag_5desconto.png'
 
-import BBBankImage from '../../../assets/logos/bb.png'
-import BradescoBankImage from '../../../assets/logos/bradesco.png'
-import ItauBankImage from '../../../assets/logos/itau.png'
-import SantanderBankImage from '../../../assets/logos/santander.png'
-import OriginalBankImage from '../../../assets/logos/original.png'
-import InterBankImage from '../../../assets/logos/inter.png'
-import BS2BankImage from '../../../assets/logos/bs2.png'
+import BBBankImage from '../../assets/logos/bb.png'
+import BradescoBankImage from '../../assets/logos/bradesco.png'
+import ItauBankImage from '../../assets/logos/itau.png'
+import SantanderBankImage from '../../assets/logos/santander.png'
+import OriginalBankImage from '../../assets/logos/original.png'
+import InterBankImage from '../../assets/logos/inter.png'
+import BS2BankImage from '../../assets/logos/bs2.png'
 
-import PixImage from '../../../assets/logos/pix.png'
+import PixImage from '../../assets/logos/pix.png'
 
-import LogosImage from '../../../assets/logos/logos_rodape.png'
+import LogosImage from '../../assets/logos/logos_rodape.png'
 
 import { AccordionList, ContactButtonsList, Container, Infos, LogoBox, PaymentBox, PaymentType, SocialBox, Wrapper } from "./style";
 import { CustomButton } from "../shared/Button";

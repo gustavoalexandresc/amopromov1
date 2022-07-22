@@ -1,8 +1,8 @@
 import styled from 'styled-components'
 import { Devices } from '../../utils/devices'
 
-import WomanBackgroundImage from '../../../assets/woman_background.png'
-import WomanBackgroundMobileImage from '../../../assets/woman_background_mobile.jpg'
+import WomanBackgroundImage from '../../assets/woman_background.png'
+import WomanBackgroundMobileImage from '../../assets/woman_background_mobile.jpg'
 
 export const Container = styled.section`
   width: 100%;

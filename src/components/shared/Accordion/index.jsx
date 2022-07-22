@@ -1,10 +1,10 @@
 import { useRef, useState } from "react";
 
-import ChevronTopDefaultIcon from '../../../../assets/icons/chevron_top.png'
-import ChevronDownDefaultIcon from '../../../../assets/icons/chevron_down.png'
+import ChevronTopDefaultIcon from '../../../assets/icons/chevron_top.png'
+import ChevronDownDefaultIcon from '../../../assets/icons/chevron_down.png'
 
-import ChevronTopAltIcon from '../../../../assets/icons/chevron_top_alt.png'
-import ChevronDownAltIcon from '../../../../assets/icons/chevron_down_alt.png'
+import ChevronTopAltIcon from '../../../assets/icons/chevron_top_alt.png'
+import ChevronDownAltIcon from '../../../assets/icons/chevron_down_alt.png'
 
 import { Container, ContentBox, Title } from "./style";
 

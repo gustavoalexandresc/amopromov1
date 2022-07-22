@@ -2,10 +2,10 @@ import { CustomButton } from "../shared/Button";
 import { Card } from "./Card";
 import { Container, Wrapper, CardWrapper } from "./style";
 
-import AngelIcon from '../../../assets/icons/angel.png';
-import WheelchairIcon from '../../../assets/icons/wheelchair.png';
-import CandlestickIcon from '../../../assets/icons/candlestick.png';
-import CoinsIcon from '../../../assets/icons/coins.png';
+import AngelIcon from '../../assets/icons/angel.png';
+import WheelchairIcon from '../../assets/icons/wheelchair.png';
+import CandlestickIcon from '../../assets/icons/candlestick.png';
+import CoinsIcon from '../../assets/icons/coins.png';
 
 export function SectionOurCoverages() {
   return (

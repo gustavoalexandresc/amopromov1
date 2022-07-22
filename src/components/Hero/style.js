@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import { Devices } from '../../utils/devices'
 
-import HeroBackground from '../../../assets/hero_background.jpg'
+import HeroBackground from '../../assets/hero_background.jpg'
 import { CustomButton } from '../shared/Button'
 
 export const HeroSection = styled.section`

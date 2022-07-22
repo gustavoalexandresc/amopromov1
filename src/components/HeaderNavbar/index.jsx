@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react'
 
-import Logo from '../../../assets/logo.png'
-import UserIcon from '../../../assets/icons/user.png'
-import ArrowRightIcon from '../../../assets/icons/arrow_right.png'
-import CaretFillDownIcon from '../../../assets/icons/caret_fill_down.png'
+import Logo from '../../assets/logo.png'
+import UserIcon from '../../assets/icons/user.png'
+import ArrowRightIcon from '../../assets/icons/arrow_right.png'
+import CaretFillDownIcon from '../../assets/icons/caret_fill_down.png'
 
 import { Header, Menu, ResponsiveMenuButton, RestrictAreaButton } from "./style"
 

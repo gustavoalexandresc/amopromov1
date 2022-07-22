@@ -1,6 +1,6 @@
 import { CustomButton } from "../shared/Button";
 
-import ComputerAndCelphoneImage from '../../../assets/computerAndCelphone.png'
+import ComputerAndCelphoneImage from '../../assets/computerAndCelphone.png'
 
 import { Container, Wrapper, Infos, ButtonBox } from "./style";
 

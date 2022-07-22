@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react'
 import { Accordion } from '../shared/Accordion'
 import { CustomButton } from '../shared/Button'
 
-import RelationshipImage from '../../../assets/relationship.png'
+import RelationshipImage from '../../assets/relationship.png'
 
 import { Container, Wrapper, BoxInfos, AccordionList, BoxCustomButton, LoadingMessage, ErrorMessage } from './style'
 

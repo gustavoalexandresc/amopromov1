@@ -1,8 +1,8 @@
 import { CustomButton } from "../shared/Button";
 import { ButtonBox, Container, Infos, Wrapper } from "./style";
 
-import PhoneIcon from '../../../assets/icons/phone.png'
-import WhatsappIcon from '../../../assets/icons/whatsapp.png'
+import PhoneIcon from '../../assets/icons/phone.png'
+import WhatsappIcon from '../../assets/icons/whatsapp.png'
 
 export function SectionContacts() {
   return (

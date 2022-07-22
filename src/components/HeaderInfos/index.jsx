@@ -1,5 +1,5 @@
-import CelphoneIcon from '../../../assets/icons/celphone.png'
-import WhatsappIcon from '../../../assets/icons/whatsapp.png'
+import CelphoneIcon from '../../assets/icons/celphone.png'
+import WhatsappIcon from '../../assets/icons/whatsapp.png'
 
 import { Header } from './style'
 
