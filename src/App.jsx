@@ -2,6 +2,7 @@ import { HeaderInfos } from "./components/HeaderInfos"
 import { HeaderNavbar } from "./components/HeaderNavbar"
 import { Hero } from "./components/Hero"
 import { SectionCustomPlans } from "./components/SectionCustomPlans"
+import { SectionOurCoverages } from "./components/SectionOurCoverages"
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <main>
         <Hero />
         <SectionCustomPlans />
+        <SectionOurCoverages />
 
       </main>
     </div>
