@@ -59,10 +59,11 @@ export const BoxInfos = styled.div`
     flex-direction: column-reverse;
   }
 
-  > img {
+  > div > img {
+    width: 100%;
+    object-fit: cover;
+
     @media (${Devices.mobile}) {
-      width: 100%;
-      object-fit: cover;
       padding: 0 1rem;
     }
   }
