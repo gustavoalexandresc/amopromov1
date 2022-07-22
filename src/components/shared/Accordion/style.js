@@ -1,10 +1,14 @@
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
 
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
 
-  border-bottom: 1px solid #CCD1D6;
+  ${({ theme }) => theme === 'footer' ? css`
+    border-bottom: 1px solid #435162;
+  ` : css`
+    border-bottom: 1px solid #CCD1D6;
+  `}
 `
 
 export const Title = styled.button`

@@ -1,3 +1,4 @@
+import { Footer } from "./components/Footer"
 import { HeaderInfos } from "./components/HeaderInfos"
 import { HeaderNavbar } from "./components/HeaderNavbar"
 import { Hero } from "./components/Hero"
@@ -20,6 +21,7 @@ function App() {
         <SectionLifeInsurance />
         <SectionContacts />
       </main>
+      <Footer />
     </div>
   )
 }

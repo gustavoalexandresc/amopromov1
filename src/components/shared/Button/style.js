@@ -1,13 +1,21 @@
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
 
 export const ButtonContainer = styled.button`
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 0.375rem;
+
+  flex-direction: ${({ flexDirection }) => flexDirection ? flexDirection : 'row'};
 
   background: #33794A;
   border: 0;
-  border-radius: 100px;
+
+  ${({ theme }) => theme === 'footer' ? css`
+    border-radius: 8px;
+  ` : css`
+    border-radius: 100px;
+  `}
   
   font-size: ${({ fontSize }) => fontSize ? fontSize : '1.125rem'};
   font-weight: ${({ fontWeight }) => fontWeight ? fontWeight : '700'};
