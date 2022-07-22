@@ -1,12 +1,16 @@
 import styled from 'styled-components'
 
 export const ButtonContainer = styled.button`
+  display: flex;
+  align-items: center;
+  gap: 0.375rem;
+
   background: #33794A;
   border: 0;
   border-radius: 100px;
   
-  font-size: 1.125rem;
-  font-weight: 700;
+  font-size: ${({ fontSize }) => fontSize ? fontSize : '1.125rem'};
+  font-weight: ${({ fontWeight }) => fontWeight ? fontWeight : '700'};
   color: #FFFFFF;
 
   padding: 0.75rem 2.125rem;

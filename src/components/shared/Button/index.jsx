@@ -2,7 +2,11 @@ import { ButtonContainer } from "./style";
 
 export function CustomButton(props) {
   return (
-    <ButtonContainer {...props}>
+    <ButtonContainer
+      fontSize={props.fontSize}
+      fontWeight={props.fontWeight}
+      {...props}
+    >
       {props.children}
     </ButtonContainer>
   )
