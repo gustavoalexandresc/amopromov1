@@ -1,5 +1,5 @@
 import { CustomButton } from "../shared/Button";
-import { Container, Infos, Wrapper } from "./style";
+import { ButtonBox, Container, Infos, Wrapper } from "./style";
 
 import PhoneIcon from '../../../assets/icons/phone.png'
 import WhatsappIcon from '../../../assets/icons/whatsapp.png'
@@ -15,10 +15,12 @@ export function SectionContacts() {
             <img src={PhoneIcon} alt="Telefone" />
             (99) 99999.9999
           </a>
-          <CustomButton fontSize="0.75rem" fontWeight={400}>
-            <img src={WhatsappIcon} alt="Whatsapp" />
-            Se preferir, entre em contato pelo Whatsapp
-          </CustomButton>
+          <ButtonBox>
+            <CustomButton fontSize="0.75rem" fontWeight={400}>
+              <img src={WhatsappIcon} alt="Whatsapp" />
+              Se preferir, entre em contato pelo Whatsapp
+            </CustomButton>
+          </ButtonBox>
 
 
           <small>Atendemos pelo telefone de seg. a sex., das 9h às 17h</small>

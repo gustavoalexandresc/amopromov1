@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { Devices } from '../../utils/devices'
 
 export const Container = styled.section`
   width: 100%;
@@ -8,6 +9,10 @@ export const Container = styled.section`
   margin: 2.5rem 0 8.125rem;
   
   position: relative; //Para remover a sobreposição do bloco de gradiente utilizado no Hero
+
+  @media (${Devices.mobile}) {
+    margin: 1.875rem 0 0;
+  }
 `
 
 export const Wrapper = styled.section`
@@ -17,6 +22,21 @@ export const Wrapper = styled.section`
   align-items: center;
   justify-content: center;
   gap: 1rem;
+
+  @media (${Devices.mobile}) {
+    flex-direction: column-reverse;
+    position: relative;
+    padding-bottom: 5.25rem;
+  }
+
+  > img {
+    @media (${Devices.mobile}) {
+      margin-top: 2.5rem;
+      padding: 0 1rem;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
 `
 
 export const Infos = styled.div`
@@ -25,11 +45,21 @@ export const Infos = styled.div`
     font-weight: 700;
     line-height: 1.5;
     color: #3B454F;
+
+    @media (${Devices.mobile}) {
+      text-align: center;
+      font-size: 1.5rem;
+      padding: 0 1rem;
+    }
   }
 
   ul {
     list-style-type: none;
     margin-top: 1.5rem;
+
+    @media (${Devices.mobile}) {
+      margin: 1rem 1.5rem 0;
+    }
 
     li {
       display: flex;
@@ -42,6 +72,10 @@ export const Infos = styled.div`
       p {
         font-size: 1.125rem;
         color: #3B454F;
+
+        @media (${Devices.mobile}) {
+          font-size: 1rem;
+        }
       }
 
       span {
@@ -64,5 +98,26 @@ export const Infos = styled.div`
     color: #83AF38;
 
     margin-top: 2rem;
+
+    @media (${Devices.mobile}) {
+      text-align: center;
+      font-size: 1.25rem;
+      padding: 0 1rem;
+
+      margin-top: 2.125rem;
+    }
+  }
+`
+
+export const ButtonBox = styled.div`
+  @media (${Devices.mobile}) {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  
+    position: absolute;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
   }
 `

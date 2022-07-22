@@ -2,7 +2,7 @@ import { CustomButton } from "../shared/Button";
 
 import ComputerAndCelphoneImage from '../../../assets/computerAndCelphone.png'
 
-import { Container, Wrapper, Infos } from "./style";
+import { Container, Wrapper, Infos, ButtonBox } from "./style";
 
 export function SectionCustomPlans() {
   return (
@@ -27,7 +27,9 @@ export function SectionCustomPlans() {
           <p>
             Pronto! Agora você e sua família têm todos os benefícios de viver com segurança total
           </p>
-          <CustomButton>Faça sua cotação</CustomButton>
+          <ButtonBox>
+            <CustomButton>Faça sua cotação</CustomButton>
+          </ButtonBox>
         </Infos>
       </Wrapper>
     </Container>

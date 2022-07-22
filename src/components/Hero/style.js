@@ -1,14 +1,23 @@
 import styled from 'styled-components'
+import { Devices } from '../../utils/devices'
 
 import HeroBackground from '../../../assets/hero_background.jpg'
+import { CustomButton } from '../shared/Button'
 
 export const HeroSection = styled.section`
   position: relative;
   width: 100%;
-  background: url(${HeroBackground}) no-repeat center center;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), 
+              url(${HeroBackground}) no-repeat center center;
   background-size: cover;
 
   padding: 4.375rem 0 5.625rem;
+
+  @media (${Devices.mobile}) {
+    height: 100%;
+    min-height: 30.875rem;
+    padding: 1.25rem 0;
+  }
 `
 export const Wrapper = styled.div`
   width: 100%;
@@ -26,19 +35,30 @@ export const Wrapper = styled.div`
     font-weight: 700;
     line-height: 1.25;
     color: #3B454F;
+
+    @media (${Devices.mobile}) {
+      font-size: 2rem;
+
+      max-width: 18.375rem;
+      padding: 0 1rem;
+    }
   }
 
   > div {
     width: 100%;
     max-width: 23.625rem;
     margin-top: 16rem;
+
+    @media (${Devices.mobile}) {
+      margin-top: 2.75rem;
+      padding: 0 0.75rem;
+    }
   }
 
   p {
     font-size: 1.125rem;
     line-height: 1.5;
     color: #FFFFFF;
-
   }
 `
 
@@ -49,4 +69,19 @@ export const BottomGradient = styled.div`
 
   position: absolute;
   bottom: -6.625rem;
+`
+
+export const ButtonBox = styled.div`
+  @media (${Devices.mobile}) {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    position: absolute;
+    bottom: -0.75rem;
+    left: 50%;
+    transform: translateX(-50%);
+
+    z-index: 2;
+  }
 `

@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { Devices } from '../../utils/devices'
 
 export const Header = styled.section`
   display: flex;
@@ -8,6 +9,10 @@ export const Header = styled.section`
   padding: 0.25rem 0;
 
   background: #03341C;
+
+  @media (${Devices.mobile}) {
+    display: none;
+  }
 
   span {
     display: inline-block;

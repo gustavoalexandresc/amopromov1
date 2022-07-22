@@ -14,7 +14,6 @@ export const ButtonContainer = styled.button`
   color: #FFFFFF;
 
   padding: 0.75rem 2.125rem;
-  margin-top: 2rem;
 
   transition: filter 0.3s;
 

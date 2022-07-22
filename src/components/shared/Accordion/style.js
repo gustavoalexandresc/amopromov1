@@ -21,6 +21,8 @@ export const Title = styled.button`
 
 
   p {
+    max-width: 90%;
+    text-align: start;
     font-size: 0.875rem;
     color: #3B454F;
   }

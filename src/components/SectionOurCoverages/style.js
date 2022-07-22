@@ -1,8 +1,14 @@
 import styled from 'styled-components'
+import { Devices } from '../../utils/devices'
 
 export const Container = styled.section`
   background: #F8F8F8;
   padding: 4rem 0 5rem;
+
+  @media (${Devices.mobile}) {
+    background: #FFFFFF;
+    padding: 1.875rem 0;
+  }
 `
 
 export const Wrapper = styled.div`
@@ -19,6 +25,12 @@ export const Wrapper = styled.div`
     font-size: 2.25rem;
     font-weight: 700;
     color: #3B454F;
+
+    @media (${Devices.mobile}) {
+      text-align: center;
+      font-size: 1.5rem;
+      padding: 0 1rem;
+    }
   }
 
   > p {
@@ -27,6 +39,13 @@ export const Wrapper = styled.div`
     color: #3B454F;
 
     margin-top: 2.125rem;
+
+    @media (${Devices.mobile}) {
+      text-align: center;
+      font-size: 1rem;
+      margin-top: 1rem;
+      padding: 0 1rem;
+    }
   }
 
 `
@@ -38,4 +57,10 @@ export const CardWrapper = styled.div`
   flex-wrap: wrap;
 
   margin: 3.75rem 0 4rem;
+
+  @media (${Devices.mobile}) {
+    flex-direction: column;
+    margin: 1.5rem 0 2.5rem;
+    padding: 0 1rem;
+  }
 `

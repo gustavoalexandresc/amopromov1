@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { Devices } from '../../../utils/devices'
 
 export const Container = styled.div`
   width: 100%;
@@ -16,6 +17,10 @@ export const Container = styled.div`
   border-radius: 8px;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15);
 
+  @media (${Devices.mobile}) {
+    max-width: unset;
+  }
+
   h6 {
     font-size: 1rem;
     font-weight: 700;
@@ -27,6 +32,10 @@ export const Container = styled.div`
     font-size: 0.875rem;
     line-height: 1.5;
     color: #737D86;
+
+    @media (${Devices.mobile}) {
+      font-size: 1rem;
+    }
   }
 
   button {
@@ -47,6 +56,10 @@ export const Container = styled.div`
 
     &:hover {
       filter: brightness(0.9);
+    }
+
+    @media (${Devices.mobile}) {
+      display: none;
     }
   }
 `

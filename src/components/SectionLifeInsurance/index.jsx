@@ -64,9 +64,7 @@ export function SectionLifeInsurance() {
               ))
             )}
           </AccordionList>
-          <div>
-            <img src={RelationshipImage} />
-          </div>
+          <img src={RelationshipImage} />
         </BoxInfos>
         <BoxCustomButton>
           <CustomButton>
