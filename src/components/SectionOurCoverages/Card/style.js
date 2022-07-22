@@ -17,7 +17,7 @@ export const Container = styled.div`
   border-radius: 8px;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15);
 
-  @media (${Devices.mobile}) {
+  @media (${Devices.tablet}) {
     max-width: unset;
   }
 
@@ -33,7 +33,7 @@ export const Container = styled.div`
     line-height: 1.5;
     color: #737D86;
 
-    @media (${Devices.mobile}) {
+    @media (${Devices.tablet}) {
       font-size: 1rem;
     }
   }
@@ -58,7 +58,7 @@ export const Container = styled.div`
       filter: brightness(0.9);
     }
 
-    @media (${Devices.mobile}) {
+    @media (${Devices.tablet}) {
       display: none;
     }
   }

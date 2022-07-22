@@ -13,7 +13,7 @@ export const HeroSection = styled.section`
 
   padding: 4.375rem 0 5.625rem;
 
-  @media (${Devices.mobile}) {
+  @media (${Devices.tablet}) {
     height: 100%;
     min-height: 30.875rem;
     padding: 1.25rem 0;
@@ -36,7 +36,7 @@ export const Wrapper = styled.div`
     line-height: 1.25;
     color: #3B454F;
 
-    @media (${Devices.mobile}) {
+    @media (${Devices.tablet}) {
       font-size: 2rem;
 
       max-width: 18.375rem;
@@ -49,7 +49,7 @@ export const Wrapper = styled.div`
     max-width: 23.625rem;
     margin-top: 16rem;
 
-    @media (${Devices.mobile}) {
+    @media (${Devices.tablet}) {
       margin-top: 2.75rem;
       padding: 0 0.75rem;
     }
@@ -74,7 +74,7 @@ export const BottomGradient = styled.div`
 export const ButtonBox = styled.div`
   margin-top: 2rem;
 
-  @media (${Devices.mobile}) {
+  @media (${Devices.tablet}) {
     width: 100%;
     display: flex;
     justify-content: center;

@@ -5,7 +5,7 @@ export const Container = styled.section`
   background: #F8F8F8;
   padding: 4rem 0 5rem;
 
-  @media (${Devices.mobile}) {
+  @media (${Devices.tablet}) {
     background: #FFFFFF;
     padding: 1.875rem 0;
   }
@@ -26,7 +26,7 @@ export const Wrapper = styled.div`
     font-weight: 700;
     color: #3B454F;
 
-    @media (${Devices.mobile}) {
+    @media (${Devices.tablet}) {
       text-align: center;
       font-size: 1.5rem;
       padding: 0 1rem;
@@ -40,7 +40,7 @@ export const Wrapper = styled.div`
 
     margin-top: 2.125rem;
 
-    @media (${Devices.mobile}) {
+    @media (${Devices.tablet}) {
       text-align: center;
       font-size: 1rem;
       margin-top: 1rem;
@@ -58,7 +58,7 @@ export const CardWrapper = styled.div`
 
   margin: 3.75rem 0 4rem;
 
-  @media (${Devices.mobile}) {
+  @media (${Devices.tablet}) {
     flex-direction: column;
     margin: 1.5rem 0 2.5rem;
     padding: 0 1rem;

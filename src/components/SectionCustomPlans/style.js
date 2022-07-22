@@ -7,11 +7,13 @@ export const Container = styled.section`
   align-items: center;
   justify-content: center;
   margin: 2.5rem 0 8.125rem;
+  padding: 0 1rem;
   
   position: relative; //Para remover a sobreposição do bloco de gradiente utilizado no Hero
 
-  @media (${Devices.mobile}) {
+  @media (${Devices.tablet}) {
     margin: 1.875rem 0 0;
+    padding: 0;
   }
 `
 
@@ -23,14 +25,14 @@ export const Wrapper = styled.section`
   justify-content: center;
   gap: 1rem;
 
-  @media (${Devices.mobile}) {
+  @media (${Devices.tablet}) {
     flex-direction: column-reverse;
     position: relative;
     padding-bottom: 5.25rem;
   }
 
   > img {
-    @media (${Devices.mobile}) {
+    @media (${Devices.tablet}) {
       margin-top: 2.5rem;
       padding: 0 1rem;
       width: 100%;
@@ -46,7 +48,7 @@ export const Infos = styled.div`
     line-height: 1.5;
     color: #3B454F;
 
-    @media (${Devices.mobile}) {
+    @media (${Devices.tablet}) {
       text-align: center;
       font-size: 1.5rem;
       padding: 0 1rem;
@@ -57,7 +59,7 @@ export const Infos = styled.div`
     list-style-type: none;
     margin-top: 1.5rem;
 
-    @media (${Devices.mobile}) {
+    @media (${Devices.tablet}) {
       margin: 1rem 1.5rem 0;
     }
 
@@ -73,7 +75,7 @@ export const Infos = styled.div`
         font-size: 1.125rem;
         color: #3B454F;
 
-        @media (${Devices.mobile}) {
+        @media (${Devices.tablet}) {
           font-size: 1rem;
         }
       }
@@ -99,7 +101,7 @@ export const Infos = styled.div`
 
     margin-top: 2rem;
 
-    @media (${Devices.mobile}) {
+    @media (${Devices.tablet}) {
       text-align: center;
       font-size: 1.25rem;
       padding: 0 1rem;
@@ -112,7 +114,7 @@ export const Infos = styled.div`
 export const ButtonBox = styled.div`
   margin-top: 2rem;
 
-  @media (${Devices.mobile}) {
+  @media (${Devices.tablet}) {
     width: 100%;
     display: flex;
     justify-content: center;

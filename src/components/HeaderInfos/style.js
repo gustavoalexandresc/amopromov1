@@ -10,7 +10,7 @@ export const Header = styled.section`
 
   background: #03341C;
 
-  @media (${Devices.mobile}) {
+  @media (${Devices.tablet}) {
     display: none;
   }
 

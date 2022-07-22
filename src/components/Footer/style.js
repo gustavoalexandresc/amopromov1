@@ -115,6 +115,10 @@ export const Infos = styled.div`
   padding-top: 1.25rem;
   margin-top: 1.875rem;
 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
   p {
     font-size: 0.75rem;
     line-height: 1.4;
@@ -123,6 +127,7 @@ export const Infos = styled.div`
 
   img {
     width: 100%;
+    max-width: 19.375rem;
     object-fit: contain;
     margin-top: 1rem;
   }

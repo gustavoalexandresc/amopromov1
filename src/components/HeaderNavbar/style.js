@@ -6,15 +6,15 @@ export const Header = styled.section`
   align-items: center;
   justify-content: center;
 
-  padding: 1.5rem 0;
+  padding: 1.5rem 1rem;
   background: #006E3E;
 
-  @media (${Devices.mobile}) {
+  @media (${Devices.tablet}) {
     padding: 1rem 0.625rem;
   }
 
   nav > a > img {
-    @media (${Devices.mobile}) {
+    @media (${Devices.tablet}) {
       width: 100%;
       max-width: 8.375rem;
 
@@ -43,7 +43,7 @@ export const ResponsiveMenuButton = styled.button`
   border: 0;
   outline: none;
 
-  @media (${Devices.mobile}) {
+  @media (${Devices.tablet}) {
     display: flex;
     align-items: center;
 
@@ -67,7 +67,7 @@ export const Menu = styled.ul`
   align-items: center;
   justify-content: center;
 
-  @media (${Devices.mobile}) {
+  @media (${Devices.tablet}) {
     ${({ isOpenMenu }) => isOpenMenu ? css`
       position: fixed;
       top: 0;
@@ -106,7 +106,7 @@ export const Menu = styled.ul`
       border-radius: 4px;
     }
 
-    @media (${Devices.mobile}) {
+    @media (${Devices.tablet}) {
       font-size: 1.125rem;
     }
   }
@@ -123,7 +123,7 @@ export const RestrictAreaButton = styled.button`
 
   transition: filter 0.2s;
 
-  @media (${Devices.mobile}) {
+  @media (${Devices.tablet}) {
     ${({ isOpenMenu }) => isOpenMenu ? css`
       position: absolute;
       bottom: 2.5rem;

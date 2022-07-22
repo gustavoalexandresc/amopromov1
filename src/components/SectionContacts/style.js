@@ -15,7 +15,7 @@ export const Container = styled.section`
 
   padding: 4.75rem 3.75rem 1.25rem;
 
-  @media (${Devices.mobile}) {
+  @media (${Devices.tablet}) {
     background: url(${WomanBackgroundMobileImage}) no-repeat center center;
     background-size: cover;
     padding: 2rem 1rem 2.5rem;
@@ -30,7 +30,7 @@ export const Wrapper = styled.div`
   display: flex;
   justify-content: space-between;
 
-  @media (${Devices.mobile}) {
+  @media (${Devices.tablet}) {
     flex-direction: column;
     justify-content: unset;
     max-width: unset;
@@ -50,7 +50,8 @@ export const Wrapper = styled.div`
     line-height: 1.5;
     color: #3B454F;
 
-    @media (${Devices.mobile}) {
+    @media (${Devices.tablet}) {
+      max-width: unset;
       font-size: 1.5rem;
     }
   }
@@ -65,7 +66,8 @@ export const Infos = styled.div`
   max-width: 28.875rem;
   height: 100%;
 
-  @media (${Devices.mobile}) {
+  @media (${Devices.tablet}) {
+    max-width: unset;
     margin-top: 1rem;
   }
 
@@ -77,7 +79,7 @@ export const Infos = styled.div`
     line-height: 1.5;
     color: #3B454F;
 
-    @media (${Devices.mobile}) {
+    @media (${Devices.tablet}) {
       font-size: 0.75rem;
       font-weight: 400;
       color: #737D86;
@@ -103,7 +105,7 @@ export const Infos = styled.div`
       filter: opacity(0.8);
     }
 
-    @media (${Devices.mobile}) {
+    @media (${Devices.tablet}) {
       margin-top: 1.25rem;
     }
   }
@@ -115,7 +117,7 @@ export const Infos = styled.div`
 
     margin-top: 20.25rem;
 
-    @media (${Devices.mobile}) {
+    @media (${Devices.tablet}) {
       font-size: 0.625rem;
       margin-top: 1rem;
     }
@@ -125,7 +127,7 @@ export const Infos = styled.div`
 export const ButtonBox = styled.div`
   margin-top: 2rem;
 
-  @media (${Devices.mobile}) {
+  @media (${Devices.tablet}) {
     display: flex;
     justify-content: center;
     width: 100%;

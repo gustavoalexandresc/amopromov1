@@ -3,6 +3,11 @@ import { Devices } from '../../utils/devices'
 
 export const Container = styled.section`
   width: 100%;
+  padding: 0 1rem;
+
+  @media (${Devices.tablet}) {
+    padding: 0;
+  }
 `
 
 export const Wrapper = styled.div`
@@ -12,7 +17,7 @@ export const Wrapper = styled.div`
   margin: 1rem auto 5.125rem;
   position: relative;
 
-  @media (${Devices.mobile}) {
+  @media (${Devices.tablet}) {
     margin: 1rem auto 3.75rem;
   }
 
@@ -22,11 +27,16 @@ export const Wrapper = styled.div`
     font-weight: 700;
     color: #3B454F;
 
-    @media (${Devices.mobile}) {
+    @media (${Devices.tablet}) {
+      width: 100%;
       font-size: 1.5rem;
       padding: 0 1rem;
       position: absolute;
-      top: 17.5rem;
+      top: 38%;
+    }
+
+    @media (${Devices.mobile500}) {
+      top: 30%;
     }
   }
 `
@@ -37,7 +47,7 @@ export const BoxCustomButton = styled.div`
   left: 50%;
   transform: translateX(-50%);
 
-  @media (${Devices.mobile}) {
+  @media (${Devices.tablet}) {
     display: flex;
     justify-content: center;
 
@@ -54,16 +64,18 @@ export const BoxInfos = styled.div`
 
   margin-top: 4.5rem;
 
-  @media (${Devices.mobile}) {
+  @media (${Devices.tablet}) {
     margin-top: 0;
     flex-direction: column-reverse;
+    align-items: center;
   }
 
   > div > img {
     width: 100%;
+    max-width: 31.25rem;
     object-fit: cover;
 
-    @media (${Devices.mobile}) {
+    @media (${Devices.tablet}) {
       padding: 0 1rem;
     }
   }
@@ -75,9 +87,10 @@ export const AccordionList = styled.div`
   height: 100%;
   min-height: 26.75rem;
 
-  @media (${Devices.mobile}) {
+  @media (${Devices.tablet}) {
+    max-width: unset;
     min-height: unset;
-    padding: 10.875rem 1rem 0;
+    padding: 5rem 1rem 0;
   }
 `
 export const LoadingMessage = styled.span`
