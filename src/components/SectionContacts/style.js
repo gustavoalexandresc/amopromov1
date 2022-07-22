@@ -123,6 +123,8 @@ export const Infos = styled.div`
 `
 
 export const ButtonBox = styled.div`
+  margin-top: 2rem;
+
   @media (${Devices.mobile}) {
     display: flex;
     justify-content: center;
@@ -132,5 +134,7 @@ export const ButtonBox = styled.div`
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
+
+    margin-top: unset;
   }
 `

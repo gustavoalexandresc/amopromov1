@@ -72,6 +72,8 @@ export const BottomGradient = styled.div`
 `
 
 export const ButtonBox = styled.div`
+  margin-top: 2rem;
+
   @media (${Devices.mobile}) {
     width: 100%;
     display: flex;
@@ -81,6 +83,8 @@ export const ButtonBox = styled.div`
     bottom: -0.75rem;
     left: 50%;
     transform: translateX(-50%);
+
+    margin-top: unset;
 
     z-index: 2;
   }
